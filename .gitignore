@@ -1,0 +1,24 @@
+# 编译输出
+out/
+project/out/
+
+# 构建产物
+*.jar
+!src/**/*.jar
+
+# IDE 配置
+.idea/
+*.iml
+.vscode
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编译生成的 class 文件
+*.class
+
+# 临时文件
+*.log
+*.tmp
